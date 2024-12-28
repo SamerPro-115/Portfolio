@@ -13,7 +13,7 @@ import DsnGrid from "../../components/DsnGrid";
 import TitleCover from "../../components/heading/title-cover/TitleCover";
 import ButtonDefault from "../../components/button/button-default/ButtonDefault";
 import Footer from "../../components/footer/Footer";
-import Team from "../../components/team/Team";
+import Tools from "../../components/team/Tools";
 import Contact from "../Contact";
 import {Helmet} from "react-helmet";
 import SocialHero from "../../components/social-hero/SocialHero";
@@ -96,14 +96,12 @@ function Demo2(props) {
         {/*End  Box Info With Image*/}
         <SocialHero />
 
-        {/*Start Team*/}
         <Container className="section-margin dsn-right-container">
           <TitleSection description="Tools">
             What I Can Use
           </TitleSection>
-          <Team loop grabCursor />
+          <Tools loop grabCursor />
         </Container>
-        {/*End Team*/}
 
         <Contact />
         <Footer />

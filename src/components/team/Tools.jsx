@@ -1,7 +1,7 @@
 import React from 'react'
 
 import './style.scss'
-import TeamItem from './TeamItem';
+import ToolsItem from './ToolsItem';
 import 'swiper/css';
 
 
@@ -62,7 +62,7 @@ const Team = ({className, desktop, mobile, tablet, ...restProps}: SwiperOptions)
         >
             {TeamDetails.map((item, index) =>
                 <SwiperSlide key={index}>
-                    <TeamItem src={item.src} title={item.title} subTitle={item.subTitle}/>
+                    <ToolsItem src={item.src} title={item.title} subTitle={item.subTitle}/>
                 </SwiperSlide>
             )}
             <div className="swiper-pagination"/>
