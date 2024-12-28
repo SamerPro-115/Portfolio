@@ -2,7 +2,7 @@
   "name": "samerpro",
   "version": "1.0.0",
   "homepage": "https://samerpro.com",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@emailjs/browser": "^3.12.1",
     "@fancyapps/ui": "^4.0.26",
