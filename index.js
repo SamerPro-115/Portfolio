@@ -136,7 +136,7 @@ window.addEventListener('scroll', () => {
 });
 
 
-emailjs.init("4RMueB5KLxcm6MLb9");
+emailjs.init("******");
 function restrictInput(a) {
   a.addEventListener("input", function () {
     a.value = a.value.replace(/[^a-zA-Z0-9\u0600-\u06FF\s]/g, "");
@@ -160,7 +160,7 @@ function sendEmail(event) {
     $("#submit").attr("disabled", !0),
     $("#submit").val("Sending.."),
     $("#submit").css("background", "#ff6318"),
-    emailjs.sendForm("service_rkv4miq", "template_t3niway", a).then(
+    emailjs.sendForm("****", "****", a).then(
       function (response) {
           $("#submit").attr("disabled", !1),
           $("#submit").val("Sent!"),
